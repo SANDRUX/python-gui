@@ -324,9 +324,9 @@ def indexScreen():
     titlelabel = Label(mainFrame, text="Choose language wiki!", bg="lightgreen", font='times 50 italic', pady=50)
     titlelabel.pack()
 
-    my_img = ImageTk.PhotoImage(Image.open("kawiki.png"))
-    my_img1 = ImageTk.PhotoImage(Image.open("enwiki.png"))
-    my_img2 = ImageTk.PhotoImage(Image.open("ruwiki.png"))
+    my_img = ImageTk.PhotoImage(Image.open("../Design/kawiki.png"))
+    my_img1 = ImageTk.PhotoImage(Image.open("../Design/enwiki.png"))
+    my_img2 = ImageTk.PhotoImage(Image.open("../Design/ruwiki.png"))
 
     ka = Button(mainFrame, image=my_img, fg="black", bg="#f77777", command= mainscreen_KA,borderwidth=2, relief="flat")
     ka.place(relx=0.2, rely=0.5)
